@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Guys Manager Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Five Guys Manager Exam Quiz</h1>
+        <p>Answer all 50 questions and submit to see your score!</p>
+    </header>
+
+    <main>
+        <form id="quizForm">
+            <div id="quizContainer"></div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+        <div id="result"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
